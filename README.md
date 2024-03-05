@@ -1,3 +1,3 @@
-# Gerador de Lorem ipsum
+# Gerador de Lorem Ipsum
 
-Gerador de Lorem ipsum em HTML, CSS e JavaScript.
+Gerador de Lorem Ipsum em HTML, CSS e JavaScript.
