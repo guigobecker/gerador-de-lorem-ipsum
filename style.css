@@ -13,18 +13,70 @@ header {
   background-color: white;
   text-align: center;
   padding: 20px 0;
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.opcoes {
+  margin-bottom: 20px;
+}
+
+.opcoes label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.opcoes input[type="range"],
+.opcoes select,
+.opcoes input[type="number"] {
+  width: 100%;
+  padding: 17px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 13px;
+  background-color: #f9f9f9;
+  color: #000;
+}
+
+.opcoes select {
+  appearance: none;
+}
+
+.opcoes button {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #0086ff;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.opcoes button:hover {
+    opacity: 0.9;
+}
+
+.output {
+    background-color: #ffffff;
+    padding: 30px;
     border-radius: 10px;
+    border: 1px solid lightgray;
+    min-height: 200px;
+    color: #333;
 }
