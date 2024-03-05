@@ -69,14 +69,14 @@ main {
 }
 
 .opcoes button:hover {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .output {
-    background-color: #ffffff;
-    padding: 30px;
-    border-radius: 10px;
-    border: 1px solid lightgray;
-    min-height: 200px;
-    color: #333;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  min-height: 200px;
+  color: #333;
 }
